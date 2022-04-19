@@ -5,4 +5,33 @@
     height: 100vh;
     position: absolute;
     top:0rem;
+    align-items: flex-end;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.events{
+    display: flex;
+}
+h1{
+    margin: 0.3rem 0rem;
+    padding: 0;
+}
+.texts{
+    display: flex;
+    word-wrap: break-word;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0rem 2rem;
+}
+.section_button{
+    padding:2rem 1rem;
+    background-color: #D23838;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 5rem;
+    border: none;
+    margin: 1rem 0rem;
+    font-size: 16px;
 }

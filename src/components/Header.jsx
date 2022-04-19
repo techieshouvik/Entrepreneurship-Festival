@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       <div className="lefticons">
         <h1>What's in it?</h1>
-        <button>Sign Up</button>
+        <button className="sign_button">Sign Up</button>
       </div>
     </div>
   );
