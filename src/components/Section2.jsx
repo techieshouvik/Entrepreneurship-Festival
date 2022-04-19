@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../Data/data_events'
+import { data } from '../Data/data_events'
 import Card from './Card'
 import '../stylesheets/Section2.css'
 

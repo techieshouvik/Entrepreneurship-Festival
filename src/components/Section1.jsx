@@ -8,7 +8,7 @@ const Section1 = () => {
     <div className="section1">
       <div className="texts">
         <h1 style={{ fontWeight: "bold" }}>Spark E-Cell presents</h1>
-        <h1 style={{ fontSize: "48px", fontWeight: "bold" }}>
+        <h1 style={{ fontSize: "2rem", fontWeight: "bold" }}>
           Entrepreneurship <br />
           Festival - 2022
         </h1>
