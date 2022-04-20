@@ -15,3 +15,13 @@
 .cards::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
+
+@media screen and (max-width:500px) {
+    .cards{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .section2{
+        text-align: center;
+    }
+}
