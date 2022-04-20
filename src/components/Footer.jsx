@@ -3,7 +3,6 @@ import logo from '../assets/images/logo.png'
 import '../stylesheets/Footer.css'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
   return (
