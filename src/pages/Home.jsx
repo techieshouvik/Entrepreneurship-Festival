@@ -11,7 +11,7 @@ const Home = () => {
     <>
         <Header/>
         <Section1/>
-        <Gap/>
+        {/* <Gap/> */}
         <Section2/>
         <Section3/>
         <Footer/>

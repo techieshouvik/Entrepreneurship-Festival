@@ -11,6 +11,7 @@
     overflow-x: scroll;
     align-items: stretch;
     width: 100%;
+    height: fit-content;
 }
 .cards::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
@@ -20,8 +21,14 @@
     .cards{
         flex-direction: column;
         overflow: hidden;
+        height: fit-content;
+        padding:10px;
     }
     .section2{
         text-align: center;
+        padding:10px;
+    }
+    .cards{
+        align-items: center;
     }
 }

@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "../stylesheets/Header.css";
 import logo from '../assets/images/logo.png'
 
 const Header = () => {
+  const [changeheader, setchangeheader] = useState(false)
+  window.onscroll = () => {
+    if (window.scrollY > 300) {
+        setchangeheader(true)
+    } else {
+        setchangeheader(false)
+    }
+};
   return (
-    <div className="heading">
+    <div className={(changeheader)?"heading heading_scroll":"heading"}>
       <div className="logo">
-          <img src={logo} alt="Efest" />
+          <img src={logo} alt="Efest" className="logo_image"/>
       </div>
       <div className="lefticons">
-        <h1>What's in it?</h1>
-        <button className="sign_button">Sign Up</button>
       </div>
     </div>
   );

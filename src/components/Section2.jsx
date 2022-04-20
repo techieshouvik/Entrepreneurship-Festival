@@ -9,7 +9,7 @@ const Section2 = () => {
     <>
         <div className="section2">
             <Subheading title="What’s in it?" colour="black"/>
-            <div className="cards">
+            <div className="cards" id='cards'>
                 {
                     data.map(ele=> {
                         return <Card title={ele.title} desc={ele.desc} img={ele.img}/>

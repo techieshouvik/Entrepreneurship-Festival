@@ -1,25 +1,17 @@
 .heading{
     display:flex;
-    flex-direction: row;
     width: 100%;
-    height:fit-content;
+    height:9vh;
     padding: 1rem 0rem;
     /* background-color: black; */
     align-items: center;
     z-index: 2;
-    position: sticky;
+    position: fixed;
     margin: 0;
     /* opacity: 0.1; */
 }
-.logo{
-    width:20%;
-    margin: 0rem 1rem;
-}
-.lefticons{
-    width: 80%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.logo_image{
+    max-height: 7vh;
 }
 h1{
     font-family: 'Poppins', sans-serif;
@@ -37,4 +29,15 @@ h1{
     background-color: transparent;
     color: white;
     margin: 0rem 1rem;
+}
+.heading_scroll{
+    background-color: black;
+}
+@media screen and (max-width:800px){
+    .heading{
+        padding: 0px 30px;
+    }
+    .logo_image{
+        max-height: 9vh;
+    }
 }

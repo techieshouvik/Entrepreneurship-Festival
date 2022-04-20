@@ -4,18 +4,20 @@
     min-width: 435px;
     font-family: 'Poppins', sans-serif;
     height:300px;
-    padding: 10px 40px;
+    /* padding: 10px 40px; */
     background: linear-gradient(106.07deg, #1D1D1D 0%, rgba(0, 0, 0, 0.538542) 42.63%, rgba(29, 29, 29, 0) 100%);
+    position: relative;
 }
 .card h1{
     color: white;
-    font-size: 2rem;
+    font-size: 24px;
     font-weight: 700;
     margin: 1rem;
 }
 .card p{
-    margin: 1rem;
+    margin: 18px;
     padding: 0;
+    width: 100%;
     color: white;
     word-wrap: break-word;
 }
@@ -27,17 +29,48 @@
     font-weight: 700;
     margin: 1rem;
 }
-
+.gradient_card{
+    position:absolute;
+    height:100%;
+    width:100%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(black),
+    to(transparent)
+  );
+  background-image: linear-gradient(90deg, black, transparent);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
 @media screen and (max-width:500px) {
     .card{
         max-width: 100%;
-        min-width: 0px;
+        min-width: 310px;
+        margin-right: 0rem;
+        height: fit-content;
+        min-height: 300px;
+        /* height: fit-content; */
         /* padding: 10px 10px; */
     }
     .card h1{
-        font-size: 1.5rem;
+        font-size: 24px;
     }
     .card p{
-        font-size: 1rem;
+        font-size: 18px;
+        margin:0px;
     }
+
 }

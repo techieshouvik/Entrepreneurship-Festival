@@ -1,11 +1,28 @@
 .footer{
     background-color: #451111;
     max-width: 100%;
-    padding: 2rem 1rem;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
 }
 .logo{
     width: 70%;
     display: flex;
     justify-content: flex-start;
     padding: 0rem 2rem;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+.social_icons{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+@media screen and (max-width:800px){
+    .logo{
+        width: 35%;
+        padding: 0rem 0rem;
+    }
 }

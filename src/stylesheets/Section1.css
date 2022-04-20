@@ -1,47 +1,71 @@
-.section1{
-    background: url('../assets/images/section1.png') no-repeat center center / cover;
-    width: 100%;
-    display: flex;
-    height: 95vh;
-    position: absolute;
-    top:0rem;
-    align-items: flex-end;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 3rem;
+.section1 {
+  background: url("../assets/images/section1.png") no-repeat center center /
+    cover;
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
-.events{
-    display: flex;
+.events {
+  display: flex;
 }
-h1{
-    margin: 0.3rem 0rem;
-    padding: 0;
+h1 {
+  margin: 0.3rem 0rem;
+  padding: 0;
 }
-.texts{
-    display: flex;
-    word-wrap: break-word;
-    flex-direction: column;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 0rem 2rem;
+.texts {
+  display: flex;
+  word-wrap: break-word;
+  flex-direction: column;
+  font-weight: 700;
+  padding: 0rem 3rem;
 }
-.section_button{
-    padding:2rem 1rem;
-    background-color: #D23838;
-    color: white;
-    width: fit-content;
-    height: fit-content;
-    padding: 1rem 5rem;
-    border: none;
-    margin: 1rem 0rem;
-    font-size: 16px;
+.section_button {
+  background-color: #d23838;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem 1rem;
+  border: none;
+  margin: 1rem 0rem;
+}
+.gradient_section1 {
+    position:absolute;
+    height:100%;
+    width:100%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(black),
+    to(transparent)
+  );
+  background-image: linear-gradient(90deg, black, transparent);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
-@media screen and (max-width:400px) {
-    .texts{
-        align-items: center;
-        text-align: center;
-    }
+@media screen and (max-width: 400px) {
+  .texts {
+    align-items: center;
+    text-align: center;
+    padding:0rem 0rem;
+  }
+  .gradient_section1{
+      align-items: center;
+  }
 }
