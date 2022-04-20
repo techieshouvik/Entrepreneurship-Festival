@@ -1,0 +1,29 @@
+.card{
+    margin: 1rem 0rem;
+    margin-right: 2rem;
+    width: 30rem;
+    font-family: 'Poppins', sans-serif;
+    height:20rem;
+    padding: 1rem 2rem;
+    background: linear-gradient(106.07deg, #1D1D1D 0%, rgba(0, 0, 0, 0.538542) 42.63%, rgba(29, 29, 29, 0) 100%);
+}
+.card h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+.card p{
+    margin: 1rem;
+    padding: 0;
+    color: white;
+    word-wrap: break-word;
+}
+.play{
+    color: black;
+    background-color: white;
+    padding: 1rem 4rem;
+    border: none;
+    font-weight: 700;
+    margin: 1rem;
+}

@@ -1,6 +1,16 @@
 .section2{
     width: 100%;
-    height: 70rem;
-    background-color: black;
+    height: 32rem;
+    background-color: white;
+    padding: 1rem 3rem;
     /* position: relative; */
+}
+.cards{
+    display: flex;
+    overflow-x: auto;
+    align-items: stretch;
+    width: 100%;
+}
+.cards::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }

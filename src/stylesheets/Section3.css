@@ -1,0 +1,25 @@
+.our_vision_container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.our_vision_container p{
+    color:white;
+    word-wrap: break-word;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.our_vision_container button{
+    padding: 1rem 2rem;
+    background-color: white;
+    border: none;
+    color: black;
+}
+.texts_vision{
+    width: 50%;
+}
+.vision_illustrator{
+    width: 50%;
+}
+
