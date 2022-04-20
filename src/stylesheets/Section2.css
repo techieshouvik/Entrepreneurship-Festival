@@ -1,13 +1,14 @@
 .section2{
-    width: 100%;
-    height: 32rem;
+    position:relative;
+    max-width: 100%;
+    height: fit-content;
     background-color: white;
-    padding: 1rem 3rem;
+    padding: 30px;
     /* position: relative; */
 }
 .cards{
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     align-items: stretch;
     width: 100%;
 }
