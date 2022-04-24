@@ -5,7 +5,7 @@ import logo from '../assets/images/logo.png'
 const Header = () => {
   const [changeheader, setchangeheader] = useState(false)
   window.onscroll = () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 100) {
         setchangeheader(true)
     } else {
         setchangeheader(false)

@@ -32,7 +32,7 @@ const Section1 = () => {
                 fontSize: "32px",
               }}
             />
-            <h1 style={{ margin: "0rem 0rem" }} className="small_text">4:30-8:30</h1>
+            <h1 style={{ margin: "0rem 0rem" }} className="small_text">4:00 pm -8:30 pm</h1>
           </div>
           <button className="section_button">Explore Schedule</button>
         </div>
